@@ -15,7 +15,7 @@ const posts = [
   },
   {
     id: 2,
-    title: "DevMaps",
+    title: "DevsMap",
     description: `.`,
     techs: "node.js - expressjs - reactjs - redux - reactnative",
     image: imgdevMaps,
@@ -37,7 +37,7 @@ const posts = [
     description: ``,
     techs: "reactjs - react-dnd - styled-components",
     image: imgRocketfy,
-    code: "https://github.com/DanielNeris/Rocketfy",
+    code: "https://daniel-rocketfy.herokuapp.com/",
     look: "https://daniel-rocketfy.herokuapp.com/"
   }
 ];
