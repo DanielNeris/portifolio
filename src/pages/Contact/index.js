@@ -20,6 +20,7 @@ export default function Contact() {
           <FaRegEnvelope size={16} />
           danielneris01@gmail.com
         </Link>
+        <br />
         <Link
           target="_blank"
           href="https://api.whatsapp.com/send?phone=5514988347077&text=Hey!%20I%20have%20some%20nice%20projects%20and%20I%20think%20you%20can%20help%20me.%20Can%20we%20talk%3F"
