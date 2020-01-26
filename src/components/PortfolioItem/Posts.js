@@ -30,7 +30,7 @@ const posts = [
     techs: "reactjs - redux - styled-components - react router dom",
     image: imgRocketshoes,
     code: "https://github.com/DanielNeris/bootcamp-gostack-07",
-    look: "https://github.com/DanielNeris/bootcamp-gostack-07"
+    look: "https://danielneris-rocketshoes.netlify.com/"
   },
   {
     id: 4,
