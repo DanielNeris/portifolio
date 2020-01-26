@@ -13,13 +13,14 @@ export default function About() {
       <Title>About</Title>
       <Container>
         <Paragraph>
-          I'm 20 years old, I live in Brazil, in the countryside of Barra
-          Bonita, in São Paulo. I'm currently studying Computer Science at
-          UNISAGRADO. I started in the technology area in mid-2016, when I took
-          my first Computer Technician course and fell in love. I really like
-          the JavaScript ecosystem and today I'm focused on studying Node.js,
-          ReactJS and React Native. In my spare time, I like to play multiplayer
-          games with my friends, listen to music, program and study English.
+          I'm 20 years old, I live in Brazil, in Barra Bonita, a town in the
+          countryside of the state of São Paulo. I'm currently studying Computer
+          Science at UNISAGRADO. I started in the technology area in mid-2016,
+          when I took my first Computer Technician course and I loved it. I
+          really like the JavaScript ecosystem and today I'm focused on studying
+          Node.js, ReactJS and React Native. In my spare time, I like to play
+          multiplayer games with my friends, listen to music, program and study
+          English.
         </Paragraph>
         <TechList>
           {techItem.map(tech => (
