@@ -1,7 +1,8 @@
 import imgGobarber from "../../assets/projects/gobarber.jpg";
-import imgdevMaps from "../../assets/projects/devmaps.jpg";
+import imgDevMaps from "../../assets/projects/devmaps.jpg";
 import imgRocketshoes from "../../assets/projects/rocketshoes.jpg";
 import imgRocketfy from "../../assets/projects/rocketfy.jpg";
+import imgGitRepositories from "../../assets/projects/gitrepositories.jpg";
 
 const posts = [
   {
@@ -18,7 +19,7 @@ const posts = [
     title: "DevsMap",
     description: `The DevMaps is an application to search for developers around you for technologies.`,
     techs: "node.js - expressjs - reactjs - redux - reactnative",
-    image: imgdevMaps,
+    image: imgDevMaps,
     code: "https://github.com/DanielNeris/semanaomnistack10",
     look: "https://github.com/DanielNeris/semanaomnistack10"
   },
@@ -29,7 +30,7 @@ const posts = [
     techs: "reactjs - redux - styled-components - react router dom",
     image: imgRocketshoes,
     code: "https://github.com/DanielNeris/bootcamp-gostack-07",
-    look: "https://daniel-rocketshoes.herokuapp.com/"
+    look: "https://github.com/DanielNeris/bootcamp-gostack-07"
   },
   {
     id: 4,
@@ -37,8 +38,17 @@ const posts = [
     description: `The RocketShoes is an application that copy of the Pipefy, with the aim practice the drag and drop functionality.`,
     techs: "reactjs - react-dnd - styled-components",
     image: imgRocketfy,
-    code: "https://daniel-rocketfy.herokuapp.com/",
-    look: "https://daniel-rocketfy.herokuapp.com/"
+    code: "https://github.com/DanielNeris/Rocketfy",
+    look: "https://danielneris-rocketfy.netlify.com/"
+  },
+  {
+    id: 5,
+    title: "GitRepositories",
+    description: `The GitRepositories is a project to list repositories and issues for github users.`,
+    techs: "reactjs - react router dom",
+    image: imgGitRepositories,
+    code: "https://github.com/DanielNeris/bootcamp-gostack-05",
+    look: "https://danielneris-git-repositories.netlify.com/"
   }
 ];
 
