@@ -3,6 +3,7 @@ import imgDevMaps from "../../assets/projects/devmaps.jpg";
 import imgRocketshoes from "../../assets/projects/rocketshoes.jpg";
 import imgRocketfy from "../../assets/projects/rocketfy.jpg";
 import imgGitRepositories from "../../assets/projects/gitrepositories.jpg";
+import imgTindev from "../../assets/projects/gitrepositories.jpg";
 
 const posts = [
   {
@@ -21,10 +22,19 @@ const posts = [
     techs: "node.js - expressjs - reactjs - redux - reactnative",
     image: imgDevMaps,
     code: "https://github.com/DanielNeris/semanaomnistack10",
-    look: "https://github.com/DanielNeris/semanaomnistack10"
+    look: "https://danielneris-devsmap.netlify.com/"
   },
   {
     id: 3,
+    title: "TinDev",
+    description: `The TinDev is an application to search for developers for technologies and match similarly to Tindev`,
+    techs: "node.js - expressjs - reactjs - redux - reactnative",
+    image: imgTindev,
+    code: "https://github.com/DanielNeris/tindev-frontend",
+    look: "https://danielneris-tindev.netlify.com/"
+  },
+  {
+    id: 4,
     title: "Rocketshoes",
     description: `The RocketShoes is an application that simulates an e-commerce to buy tennis shoes.`,
     techs: "reactjs - redux - styled-components - react router dom",
@@ -33,7 +43,7 @@ const posts = [
     look: "https://danielneris-rocketshoes.netlify.com/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Rocketfy",
     description: `The RocketShoes is an application that copy of the Pipefy, with the aim practice the drag and drop functionality.`,
     techs: "reactjs - react-dnd - styled-components",
@@ -42,7 +52,7 @@ const posts = [
     look: "https://danielneris-rocketfy.netlify.com/"
   },
   {
-    id: 5,
+    id: 6,
     title: "GitRepositories",
     description: `The GitRepositories is a project to list repositories and issues for github users.`,
     techs: "reactjs - react router dom",
