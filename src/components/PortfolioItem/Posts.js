@@ -3,7 +3,7 @@ import imgDevMaps from "../../assets/projects/devmaps.jpg";
 import imgRocketshoes from "../../assets/projects/rocketshoes.jpg";
 import imgRocketfy from "../../assets/projects/rocketfy.jpg";
 import imgGitRepositories from "../../assets/projects/gitrepositories.jpg";
-import imgTindev from "../../assets/projects/gitrepositories.jpg";
+import imgTindev from "../../assets/projects/tindev.jpg";
 
 const posts = [
   {
