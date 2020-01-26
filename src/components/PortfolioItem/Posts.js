@@ -27,7 +27,7 @@ const posts = [
   {
     id: 3,
     title: "TinDev",
-    description: `The TinDev is an application to search for developers for technologies and match similarly to Tindev`,
+    description: `The TinDev is an application to search for developers for technologies and match similarly to Tindev.`,
     techs: "node.js - expressjs - reactjs - redux - reactnative",
     image: imgTindev,
     code: "https://github.com/DanielNeris/tindev-frontend",
