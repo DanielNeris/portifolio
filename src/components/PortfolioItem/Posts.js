@@ -45,7 +45,7 @@ const posts = [
   {
     id: 5,
     title: "Rocketfy",
-    description: `The RocketShoes is an application that copy of the Pipefy, with the aim practice the drag and drop functionality.`,
+    description: `The Rocketfy is an application that copy of the Pipefy, with the aim practice the drag and drop functionality.`,
     techs: "reactjs - react-dnd - styled-components",
     image: imgRocketfy,
     code: "https://github.com/DanielNeris/Rocketfy",
