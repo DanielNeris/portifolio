@@ -7,7 +7,7 @@ import Logo from "../assets/logo.png";
 export const Container = styled.div`
   height: 10rem;
   width: 100%;
-  background: #7159c1;
+  background: #00a000;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -91,9 +91,9 @@ export default function Nav() {
             offset={-70}
             duration={700}
           >
-            ABOUT
+            Sobre nós
           </StyledLink>
-          <StyledLink
+          {/* <StyledLink
             activeClass="active"
             to="portfolio"
             smooth
@@ -112,9 +112,9 @@ export default function Nav() {
             duration={700}
           >
             CONTACT
-          </StyledLink>
+          </StyledLink> */}
 
-          <a
+          {/* <a
             href="https://github.com/DanielNeris"
             target="_blank"
             rel="noopener noreferrer"
@@ -134,7 +134,7 @@ export default function Nav() {
             rel="noopener noreferrer"
           >
             <FaStackOverflow size={24} color="#fff" />
-          </a>
+          </a> */}
         </Navbar>
       </Wrapper>
     </Container>

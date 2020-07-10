@@ -10,23 +10,30 @@ const techItem = ["Node.js", "ReactJS", "React Native", "Express.js", "Redux"];
 export default function About() {
   return (
     <Layout center id="about">
-      <Title>About</Title>
+      <Title>Sobre</Title>
       <Container>
         <Paragraph>
-          I'm 20 years old, I live in Brazil, in Barra Bonita, a town in the
-          countryside of the state of São Paulo. I'm currently studying Computer
-          Science at UNISAGRADO. I started in the technology area in mid-2016,
-          when I took my first Computer Technician course and I loved it. I
-          really like the JavaScript ecosystem and today I'm focused on studying
-          Node.js, ReactJS and React Native. In my spare time, I like to play
-          multiplayer games with my friends, listen to music, program and study
-          English.
+          Nosso projeto será um aplicativo mobile de e-commerce e delivery,
+          focado no público vegano e empresas que seguem a regra “Cruelty-Free”.
+          Oferecemos um serviço de compra e venda de produtos cuja origem é
+          vegana. Queremos para um futuro próximo que a comunidade vegana
+          encontre tudo que almeja, de maneira mais fácil, levando em conta que
+          o Brasil encontra-se entre os 10 países com o maior número de
+          vegetarianos e veganos do mundo, segundo a EuroMonitor e 14% da
+          população brasileira se declara vegetariana ou vegana de acordo com o
+          Ibope Inteligência, em pesquisa realizada em abril de 2018. Nosso
+          segmento de mercado consiste em: alimentício e MarketPlace
+          (e-commerce). Nossos clientes possuem os seguintes perfis: Demográfico
+          – Classe média alta, para qualquer idade e sexo. Geográfico – Qualquer
+          pessoa em território brasileiro que seja vegana. Comportamental –
+          atribuinte do veganismo Psicográfico – pessoas aderentes da ideia
+          “Cruelty-Free” e veganismo.
         </Paragraph>
-        <TechList>
+        {/* <TechList>
           {techItem.map(tech => (
             <TechItem key={tech}>{tech}</TechItem>
           ))}
-        </TechList>
+        </TechList> */}
       </Container>
     </Layout>
   );

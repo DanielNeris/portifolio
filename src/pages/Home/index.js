@@ -19,8 +19,8 @@ export default function Home() {
       <Container>
         <TitleWrapper style={Fade}>
           <Title>Hi,</Title>
-          <Title>I'm Daniel de Souza Neris,</Title>
-          <SubTitle>A Full Stack Developer</SubTitle>
+          <Title>We're I.D Vegan,</Title>
+          <SubTitle>A Vegan App</SubTitle>
 
           <StyledButton
             activeClass="active"
@@ -30,7 +30,7 @@ export default function Home() {
             offset={-70}
             duration={700}
           >
-            About me
+            Sobre nós
           </StyledButton>
         </TitleWrapper>
 
