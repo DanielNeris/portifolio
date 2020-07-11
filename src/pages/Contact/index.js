@@ -14,9 +14,9 @@ import { Container, Link, ContactLink } from "./styles";
 export default function Contact() {
   return (
     <Layout center id="contact">
-      <Title>Get in touch</Title>
+      {/* <Title>Get in touch</Title> */}
       <Container>
-        <Link target="_blank" href="mailto:danielneris01@gmail.com">
+        {/* <Link target="_blank" href="mailto:danielneris01@gmail.com">
           <FaRegEnvelope size={16} />
           danielneris01@gmail.com
         </Link>
@@ -48,10 +48,10 @@ export default function Contact() {
           >
             Julio
           </a>
-        </p>
+        </p> */}
         <p>© Copyright 2020 copyright - All Rights Reserved</p>
-        <br />
-        <p>
+        {/* <br /> */}
+        {/* <p>
           <ContactLink
             href="https://github.com/DanielNeris"
             target="_blank"
@@ -73,7 +73,7 @@ export default function Contact() {
           >
             <FaStackOverflow size={24} color="#000" />
           </ContactLink>
-        </p>
+        </p> */}
       </Container>
     </Layout>
   );
