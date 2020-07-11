@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../../components/Layout";
 import Title from "../../components/Title";
 import Paragraph from "../../components/Paragraph";
+import img2 from "../../assets/b.jpeg";
 
 import { Container, TechList, TechItem } from "./styles";
 
@@ -35,6 +36,8 @@ export default function About() {
           ))}
         </TechList> */}
       </Container>
+
+      <img src={img2} width="100%" />
     </Layout>
   );
 }
