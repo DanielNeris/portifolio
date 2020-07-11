@@ -47,9 +47,9 @@ export const StyledLink = styled(Link)`
   padding: 0 5px;
 
   color: ${props => props.theme.colors.mainDark};
-  &:hover {
+  /* &:hover {
     color: ${props => props.theme.colors.main};
-  }
+  } */
 `;
 export const Navbar = styled.div`
   /* width: 20rem; */
@@ -91,7 +91,7 @@ export default function Nav() {
             offset={-70}
             duration={700}
           >
-            Sobre nós
+            SOBRE NÓS
           </StyledLink>
           {/* <StyledLink
             activeClass="active"

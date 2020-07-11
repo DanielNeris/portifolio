@@ -2,9 +2,9 @@ const theme = {
   colors: {
     main: "#00a000",
     mainDark: "#000",
-    white: "#fff",
-    light: "#DEE4F2",
-    neutral: "#98A6CB"
+    white: "#000",
+    light: "#000",
+    neutral: "#000"
   },
   mediaQueries: {
     smallest: `only screen and (max-width: 25em)`,

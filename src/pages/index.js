@@ -15,7 +15,7 @@ export default function App() {
       <Home />
       <About />
       {/* <Portfolio /> */}
-      <Contact />
+      {/* <Contact /> */}
       <GlobalStyle />
     </ThemeProvider>
   );

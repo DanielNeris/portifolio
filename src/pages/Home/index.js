@@ -1,7 +1,7 @@
 import React from "react";
 import { useSpring } from "react-spring";
 import { Container, TitleWrapper, StyledButton, Imagem } from "./styles";
-import img from "../../assets/test.png";
+import img from "../../assets/a.jpeg";
 
 import Layout from "../../components/Layout";
 import Title from "../../components/Title";

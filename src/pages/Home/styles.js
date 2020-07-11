@@ -18,7 +18,8 @@ export const TitleWrapper = styled(animated.div)`
 
 export const Imagem = styled.img`
   display: flex;
-  width: 90%;
+  width: 30%;
+  margin-top: 100px;
   max-width: 70rem;
   background: no-repeat cover;
   @media ${props => props.theme.mediaQueries.large} {
